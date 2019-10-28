@@ -1,0 +1,52 @@
+QUE ES WEBPACK =>
+Nos permite convertir a código estándar, es decir,
+código html,css,js y posteriormente llevarlo a producción, por ende,
+WEBPACK solo nos va a ser util en la etapa de desarrollo, en esta
+oportunidad para este proyecto porque lo importante es la carpeta públic que
+es la encargada de almacenar el código estándar de WEBPACK.
+
+CARACTERISTICAS DE WEBPACK =>
+minificar el código JavaScript.
+minificar el código CSS.
+Importar modulos durante la etapa del desarrollo.
+Utilizar clases y las ultimas caracteristicas de JavaScript.
+
+EN CONCLUSIÓN =>
+Gracias a WEBPACK se puede desarrollar una aplicación enteramente
+en JavaScript, sin la necesidad de utilizar frameworks o librerias
+de parte del frontend.
+----------------------------------------
+
+API-rest =>
+Son direcciones de internet que se crean en el servidor,
+para que desde cualquier cliente se puedan consumir y se permita
+la transferencia de datos o ejecución de diferentes
+operaciones dentro del servidor entre el cliente y dicho
+servidor y pueda ser visualizado por el usuario final.
+------------------------------------------
+
+MORGAN =>
+Muestra en la consola del servidor, las peticiones
+que van llegando al mismo desde el lado del
+cliente y su estado final entre otras caracteristicas.
+
+ESTRUCTURA MORGAN =>
+GET /hola 404 20-345 ms - 134
+MÉTODO /RUTA ESTATUS TIEMPO DE RESPUESTA - PESO DE LA PETICIÓN
+--------------------------------------------------------------
+
+__dirname =>
+Se posiciona en la carpeta donde se este ejecutando
+el index.js o el archivo donde este el servidor.
+--------------------------------------------------------------
+
+cross-env =>
+Se define en el packaje.json y es una variable
+de entorno, para saber si la aplicaión esta en 
+desarrollo o producción.
+--------------------------------------------------------------
+
+postinstall =>
+Le permite a heroku convertir en produccion el codigo de la carpeta
+frontend a la carpeta public del codigo del backend.
+--------------------------------------------------------------
